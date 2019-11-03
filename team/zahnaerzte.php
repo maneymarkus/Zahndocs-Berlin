@@ -102,7 +102,7 @@
 							<li>Studium der Zahnmedizin an der Humboldt-Universität, 2000-2006</li>
 							<li>Examen und Approbation, Dezember 2005</li>
 							<li>Ausbildung im Fachbereich Implantatprothetik</li>
-                           <li>Curriculum Implantologie, Juni 2018</li>
+              <li>Curriculum Implantologie, Juni 2018</li>
 
 						</ul>
 
@@ -112,11 +112,11 @@
 
 							<ul>
 
-								<li>Montag 11:00 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
+								<li>Montag 08:00 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
 								<li>Dienstag 11:00 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
-								<li>Mittwoch 7:30 Uhr bis 13:00 Uhr</li>
-								<li>Donnerstag 7:30 Uhr bis 13:00 Uhr</li>
-								<li>Freitag nach Vereinbarung</li>
+								<li>Mittwoch 7:30 Uhr bis 16:00 Uhr</li>
+								<li>Donnerstag 7:30 Uhr bis 16:00 Uhr</li>
+								<li>Freitag 7:30 Uhr bis 11:00 Uhr</li>
 
 							</ul>
 
@@ -127,7 +127,7 @@
 							<h4>Urlaubszeiten:</h4>
 							<ul>
 
-								<li>15.07.19 - 02.08.19</li>
+								<li>20.12.19 - 05.01.20</li>
 
 							</ul>
 						</div>
@@ -180,61 +180,8 @@
 							<h4>Urlaubszeiten:</h4>
 							<ul>
 
-								<li>12.07.19 - 24.07.19</li>
-
-							</ul>
-						</div>
-
-					</div>
-
-					<hr />
-
-					<div>
-
-						<div>
-
-							<img src="images/2019-02-27_Zahndocs19-1014.jpg" alt="Zahnarzt Mohanad Sharaf Aldin" style="width: 100%; max-width: 300px;" />
-
-							<h3>Mohanad Sharaf Aldin</h3>
-
-							<p>Seit Anfang 2019 unterstütze ich meine Kollegen bei den Zahndocs. Mein besonderes Interesse gilt der Chirurgie, trotzdem ist für mich die oberste Priorität ihre Zähne zu erhalten und die Prophylaxe.</p>
-
-						</div>
-
-						<ul>
-
-							<li>Studium der Zahnheilkunde an der Albaath Universität in Syrien, 2003-2008</li>
-							<li>Assistenzzahnarzt in der Abteilung Mund-, Kiefer- und Gesichtschirurgie an Teshreen - Klinik in Damaskus, 2009-2012</li>
-							<li>Zahnmedizinstudium an der FU und Humbold Universität/Charité Berlin, April 2014 - Juli 2017</li>
-							<li>Approbation, August 2017</li>
-							<li>Angestellter Vorbereitungsassistent in NRW, Oktober 2017 - September 2018</li>
-							<li>Seit Januar 2019 angestellter Vorbereitungsassitent bei den Zahndocs</li>
-
-						</ul>
-
-						<div class="under-image-1">
-
-							<h4>Sprechzeiten:</h4>
-
-							<ul>
-
-								<li>Montag 07:30 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
-								<li>Dienstag 07:30 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
-                <li>Mittwoch 14:00 Uhr bis 20:00 Uhr</li>
-								<li>Donnerstag 14:00 bis 20:00 Uhr</li>
-								<li>Freitag 7:30 Uhr bis 12:00 Uhr</li>
-
-							</ul>
-
-						</div>
-
-						<div class="under-image-1">
-
-							<h4>Urlaubszeiten:</h4>
-							<ul>
-
-								<li>15.07.19 - 25.07.19</li>
-                               <li>12.08.19</li>
+								<li>25.11.19 - 29.11.19</li>
+								<li>20.12.19 - 01.01.20</li>
 
 							</ul>
 						</div>
