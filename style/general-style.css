@@ -717,13 +717,13 @@ aside table {
 	margin: 3%;
 }
 
-aside table:first-of-type td:nth-child(2n) {
+aside table td:nth-child(2n) {
 	padding-left: 10%;
 }
 
 aside .heading {
 	font-size: 1.5em;
-
+	padding-top: 0.5em;
 }
 
 hr {
@@ -1096,7 +1096,7 @@ address b {
 		position: relative;
 		top: 0;
 		left: 0;
-		margin-bottom: 1.5em;
+		margin-bottom: 2em;
 		width: 90%;
 	}
 
