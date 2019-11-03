@@ -268,7 +268,7 @@ a:hover {
 
 #search input::placeholder {
 	color: grey;
-	
+
 }
 
 #search label {
@@ -685,11 +685,11 @@ aside .aside-content {
 
 .aside table {
 	border-collapse: collapse;
-}	
+}
 
 .aside table tr {
 	border-bottom: 1px solid black;
-}	
+}
 
 .aside .icon-container:hover {
 	left: -55px;
@@ -717,13 +717,13 @@ aside table {
 	margin: 3%;
 }
 
-aside table:first-of-type td:nth-child(2n) {
-	padding-left: 12%;
+aside table td:nth-child(2n) {
+	padding-left: 10%;
 }
 
 aside .heading {
 	font-size: 1.5em;
-	
+	padding-top: 0.5em;
 }
 
 hr {
@@ -798,20 +798,20 @@ address b {
 }
 
 @media screen and (min-width: 480px) {
-	
+
 	#search {
 		width: 50%;
 	}
-	
+
 	aside.aside {
 		width: 400px;
 		right: -400px;
 	}
-	
+
 	#back-to-top {
 		bottom: 5%;
 	}
-	
+
 	main {
 		font-size: 1.2em;
 		padding: 3%;
@@ -820,16 +820,16 @@ address b {
 }
 
 @media screen and (min-width: 600px) {
-	
+
 }
 
 @media screen and (min-width: 960px) {
-	
+
 	body {
 		position: relative;
 		background-color: lightgray;
 	}
-	
+
 	#wrapper {
 		position: static;
 		width: 90%;
@@ -837,7 +837,7 @@ address b {
 		background-color: white;
 		padding-top: 0;
 	}
-	
+
 	#header {
 		position: relative;
 		left: 0;
@@ -845,19 +845,19 @@ address b {
 		z-index: 5;
 		box-shadow: none;
 	}
-	
+
 	#above-nav {
 		padding-bottom: 0;
 	}
-	
+
 	.toggle-menu {
 		display: none;
 	}
-	
+
 	.search {
 		display: none;
 	}
-	
+
 	#logo-container {
 		max-width: 240px;
 		height: auto;
@@ -866,14 +866,14 @@ address b {
 		margin: 0;
 		margin-top: 2.5em;
 	}
-	
+
 	#logo-container.scroll-style {
 		position: fixed;
 		margin: 0;
 		padding: 0;
 		top: 0;
 	}
-	
+
 	#logo-container.relative {
 		position: relative;
 		left: 0;
@@ -884,12 +884,12 @@ address b {
 		margin-left: 1%;
 		margin-top: 0.1%;
 	}
-	
+
 	#logo-container img {
 		max-width: 100%;
 		height: auto;
 	}
-	
+
 	#brandarea {
 		display: block;
 		font-size: 2em;
@@ -910,7 +910,7 @@ address b {
 		margin: 0;
 		line-height: 1.5;
 	}
-	
+
 	nav {
 		position: relative;
 		font-size: 0.6em;
@@ -936,7 +936,7 @@ address b {
 		margin-left: 7%;
 		border-left: 1px solid orange;
 	}
-		
+
 	nav ul {
 		margin: 0 auto;
 		position: relative;
@@ -958,7 +958,7 @@ address b {
 	nav ul:after {
 		clear: both;
 	}
-	
+
 	#index {
 		background-color: grey;
 	}
@@ -1033,14 +1033,14 @@ address b {
 		-webkit-transition: 0.5s;
 		transition: 0.5s;
 	}
-	
+
 	nav ul li:first-of-type span, nav ul li:first-of-type a {
 		width: 100%;
 		max-width: 100%;
 		margin: 0 auto;
 		padding: 1em 0;
 	}
-	
+
 	nav ul .li i {
 		vertical-align: -25%;
 		margin-right: 0.3em;
@@ -1091,20 +1091,20 @@ address b {
 		-webkit-transition: 0.5s;
 		transition: 0.5s;
 	}
-	
+
 	#search {
 		position: relative;
 		top: 0;
 		left: 0;
-		margin-bottom: 1.5em;
+		margin-bottom: 2em;
 		width: 90%;
 	}
-	
+
 	#search label {
 		display: block;
 		font-size: 0.8em;
 	}
-	
+
 	.booking-link {
 		position: fixed;
 		left: -1.5em;
@@ -1130,7 +1130,7 @@ address b {
 	.booking-link:hover {
 		left: -0.8em;
 	}
-	
+
 	.booking-link:hover ~ .booking-info {
 		display: block;
 	}
@@ -1185,17 +1185,17 @@ address b {
 		transition: 1s ease;
 		z-index: 100;
 	}
-	
+
 	.just-mobile {
 		display: none;
 	}
-	
+
 	main {
 		*zoom: 1; /* clearfix-hack for IE 6/7 */
 		width: 100%;
 		padding-top: 2em;
 	}
-	
+
 	main:before,
 	main:after {
 		content: " ";
@@ -1205,18 +1205,18 @@ address b {
 	main:after {
 		clear: both;
 	}
-	
+
 	main .section-heading {
 		text-align: left;
 		font-size: 2.5em;
 	}
-	
+
 	section {
 		float: left;
 		width: 70%;
 		font-size: 1.2em;
 	}
-	
+
 	aside.aside {
 		position: relative;
 		float: right;
@@ -1228,15 +1228,15 @@ address b {
 		font-size: 0.6em;
 		margin-top: 0.5em;
 	}
-	
+
 	aside .heading {
 		color: blue;
 	}
-	
+
 	aside.aside table {
 		margin: 0;
 	}
-	
+
 	aside.aside div {
 		box-shadow: none;
 		margin: 0;
@@ -1244,29 +1244,29 @@ address b {
 		padding-left: 3%;
 		background-color: #EAEAEA;
 	}
-	
+
 	.aside .icon-container {
 		display: none;
 	}
-	
+
 	footer {
 		padding: 2em 1em;
 		font-size: 1em;
 	}
-	
+
 	#footerupdate {
 		width: 33.333333%;
 		float: left;
 		padding: 2.8em 0;
 	}
-	
+
 	#footerimprint {
 		width: 33.333333%;
 		float: left;
 		margin: 0;
 		padding: 1.5em 0;
 	}
-	
+
 	#footercontact {
 		width: 33.333333%;
 		float: right;
@@ -1276,30 +1276,30 @@ address b {
 }
 
 @media screen and (min-width: 1200px) {
-	
+
 	nav {
 		font-size: 0.9em;
 	}
-	
+
 	.booking-link i {
 		font-size: 5em;
 	}
-	
+
 	.show-booking {
 		transform: translate(-45%, -50%);
 		width: 15em;
 		height: 15em;
 	}
-	
+
 	.show-booking span {
 		top: -10%;
 		width: 150%;
 	}
-	
+
 	aside.aside {
 		font-size: 0.9em;
 	}
-	
+
 	footer {
 		font-size: 1.2em;
 	}
