@@ -179,7 +179,7 @@
 							<a href="team/azubis.php">Azubis</a>
 						</li>
 						<li>
-							<a href="team/prophylaxe-assistentinnen.php" >Prophylaxe-Assis&shy;tentinnen</a>
+							<a href="team/prophylaxe-assistenz.php" >Prophylaxe-Assis&shy;tentinnen</a>
 						</li>
 					</ul>
 
