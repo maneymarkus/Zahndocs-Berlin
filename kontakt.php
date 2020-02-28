@@ -54,6 +54,8 @@
 	</head>
 	<body>
 
+    <?php error_reporting(0); ?>
+
 		<div id="wrapper">
 
 			<header id="header" >
@@ -204,18 +206,40 @@
                         <tr>
 
                             <td>ZÄ Kunath:</td>
-                            <td>
-                                05.02. - 07.02.2020
-                            </td>
+                            <?php
+
+                            $db = new mysqli("localhost", "root", "", "zahndocs_daten");
+                            if ($db->connect_errno) {
+                                echo "<p>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
+                            } else {
+                                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Kunath' LIMIT 2");
+                                $data = $result->fetch_all(MYSQLI_ASSOC);
+                                foreach ($data as $val) {
+                                    echo "<td>$val[datum]</td>";
+                                }
+                            }
+
+                            ?>
 
                         </tr>
 
                         <tr>
 
                             <td>ZÄ Herrmann:</td>
-                            <td>
-                                24.02. - 28.02.2020
-                            </td>
+                            <?php
+
+                            $db = new mysqli("localhost", "root", "", "zahndocs_daten");
+                            if ($db->connect_errno) {
+                                echo "<p>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
+                            } else {
+                                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Herrmann' LIMIT 2");
+                                $data = $result->fetch_all(MYSQLI_ASSOC);
+                                foreach ($data as $val) {
+                                    echo "<td>$val[datum]</td>";
+                                }
+                            }
+
+                            ?>
 
                         </tr>
 
@@ -232,18 +256,18 @@
 
 				</section>
 
-				<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/aside.html"); ?>
+				<?php include(dirname(__FILE__) . "/aside.php"); ?>
 
 				<a id="back-to-top">
 					<i class="material-icons">arrow_upward</i>
 				</a>
 
 			</main>
-			<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/footer.php"); ?>
+			<?php include(dirname(__FILE__)."/footer.php"); ?>
 
 		</div>
 
-		<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/extensions.html"); ?>
+		<?php include(dirname(__FILE__)."/extensions.html"); ?>
 
 	</body>
 </html>

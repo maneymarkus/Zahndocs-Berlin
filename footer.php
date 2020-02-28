@@ -1,7 +1,7 @@
 <footer>
 	<div id="footerupdate">
 		Letzte Aktualisierung: 
-		<?php echo date("d.m.Y", filemtime("/var/www/vhosts/zahndocs-berlin.de/httpdocs/aside.html")); ?><br>
+		<?php echo date("d.m.Y", filemtime(dirname(__FILE__)."/aside.php")); ?><br>
 		<a href="/impressum.php" >Impressum</a><br />
 		<a href="/data-privacy-statement.php">Datenschutzerklärung</a>
 	</div>
