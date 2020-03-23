@@ -174,15 +174,15 @@
 
 						<tr>
 
-							<td>Mo. - Do.:</td>
-							<td>07:30 - 20:00 Uhr</td>
+							<td>Mo., Di., Fr.:</td>
+							<td>07:30 - 11:00 Uhr</td>
 
 						</tr>
 
 						<tr>
 
-							<td>Fr.:</td>
-							<td>07:30 - 12:00 Uhr</td>
+							<td>Mi. & Do.:</td>
+							<td>16:00 - 19:00 Uhr</td>
 
 						</tr>
 
@@ -206,7 +206,12 @@
                         <tr>
 
                             <td>ZÄ Kunath:</td>
+
+                            <td>05.02. - 07.02.2020</td>
+
                             <?php
+
+                            /*
 
                             $db = new mysqli("localhost", "root", "", "zahndocs_daten");
                             if ($db->connect_errno) {
@@ -219,6 +224,8 @@
                                 }
                             }
 
+                            */
+
                             ?>
 
                         </tr>
@@ -226,7 +233,12 @@
                         <tr>
 
                             <td>ZÄ Herrmann:</td>
+
+                            <td>24.02. - 28.02.2020</td>
+
                             <?php
+
+                            /*
 
                             $db = new mysqli("localhost", "root", "", "zahndocs_daten");
                             if ($db->connect_errno) {
@@ -238,6 +250,8 @@
                                     echo "<td>$val[datum]</td>";
                                 }
                             }
+
+                            */
 
                             ?>
 

@@ -566,6 +566,56 @@ nav.sub-menu-2 > ul > li:nth-of-type(4) ul {
 	z-index: 100;
 }
 
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 1000000;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
+.overlay.visible {
+	visibility: visible;
+	opacity: 1;
+	top: 0;
+}
+
+.overlay .modal-window {
+	position: relative;
+	padding: 3rem;
+	font-size: 2rem;
+	width: 50%;
+	max-height: 80vh;
+	overflow: auto;
+	background-color: #2196F3;
+	border-radius: 5px;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: 0.5s ease;
+}
+
+.overlay .modal-window p {
+	margin: 0;
+}
+
+.modal-window .close {
+	font-size: 40px;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+.modal-window .close:hover {
+	color: red;
+	cursor: pointer;
+}
+
 main {
 	width: 97%;
 	position: relative;

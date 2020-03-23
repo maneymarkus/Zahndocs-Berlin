@@ -1,84 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e99d048-f79e-4e2c-8d91-f08f1ed3ade8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="1e99d048-f79e-4e2c-8d91-f08f1ed3ade8" name="Default" comment="Updated project to use database concerning mainly vacation dates so far">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/400_bad_request.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/400_bad_request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/401_unauthorized.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/401_unauthorized.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/403_forbidden.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/403_forbidden.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/404_not_found.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/404_not_found.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/405_method_not_allowed.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/405_method_not_allowed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/412_precondition_failed.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/412_precondition_failed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/414_uri_too_long.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/414_uri_too_long.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/415_unsupported_media_type.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/415_unsupported_media_type.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/500_internal_server_error.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/500_internal_server_error.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/501_not_implemented.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/501_not_implemented.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/502_bad_gateway.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/502_bad_gateway.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Error_Docs/503_service_unavailable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Error_Docs/503_service_unavailable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aside.html" beforeDir="false" afterPath="$PROJECT_DIR$/aside.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-privacy-statement.php" beforeDir="false" afterPath="$PROJECT_DIR$/data-privacy-statement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/impressum.php" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aside.php" beforeDir="false" afterPath="$PROJECT_DIR$/aside.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions.html" beforeDir="false" afterPath="$PROJECT_DIR$/extensions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/befundaufnahme.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/befundaufnahme.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/bruecken-auf-implantaten.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/bruecken-auf-implantaten.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/einzelzahnersatz.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/einzelzahnersatz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/freilegung.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/freilegung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/implantate-voraussetzungen.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/implantate-voraussetzungen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/implantatgestuetzter-zahnersatz.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/implantatgestuetzter-zahnersatz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/implantation.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/implantation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/kosten-implantat.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/kosten-implantat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/vorteile-nachteile-implantate.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/vorteile-nachteile-implantate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/wann-ist-der-richtige-zeitpunkt-fuer-implantate.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/wann-ist-der-richtige-zeitpunkt-fuer-implantate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/warum-implantate.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/warum-implantate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/was-sind-implantate.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/was-sind-implantate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/implantate/zahnloser-kiefer.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/implantate/zahnloser-kiefer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/narkose.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/narkose.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/narkose/ambulante-eingriffe.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/narkose/ambulante-eingriffe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/narkose/beratungsgespraech.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/narkose/beratungsgespraech.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/narkose/keine-angst-vor-dem-zahnarzt.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/narkose/keine-angst-vor-dem-zahnarzt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/narkose/kosten-narkose.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/narkose/kosten-narkose.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/effektive-mundhygiene-professionelle-zahnreinigung.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/effektive-mundhygiene-professionelle-zahnreinigung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/entfernung-von-zahnstein-und-weichen-belaegen.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/entfernung-von-zahnstein-und-weichen-belaegen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/fluoridierung.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/fluoridierung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/individualprophylaxe-was-ist-das.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/individualprophylaxe-was-ist-das.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/kosten-prophylaxe.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/kosten-prophylaxe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/mundhygienestatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/mundhygienestatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/prophylaxe-fuer-kinder-und-jugendliche.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/prophylaxe-fuer-kinder-und-jugendliche.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/prophylaxe-fuer-schwangere.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/prophylaxe-fuer-schwangere.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/prophylaxe-fuer-senioren.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/prophylaxe-fuer-senioren.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/sonderbehandlungen.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/sonderbehandlungen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/ueberpruefung-des-uebungserfolges-und-remotivation.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/ueberpruefung-des-uebungserfolges-und-remotivation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/was-koennen-sie-tun.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/was-koennen-sie-tun.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/wie-sie-erkennen-ob-sie-eine-zahnfleischentzuendung-haben.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/wie-sie-erkennen-ob-sie-eine-zahnfleischentzuendung-haben.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/prophylaxe/zahnversiegelung.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/prophylaxe/zahnversiegelung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/zahnerhaltung.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/zahnerhaltung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/zahnerhaltung/amalgam.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/zahnerhaltung/amalgam.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/zahnerhaltung/aufhellung-bei-inneren-verfaerbungen.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/zahnerhaltung/aufhellung-bei-inneren-verfaerbungen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/zahnerhaltung/aufhellung-gesunder-zaehne.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/zahnerhaltung/aufhellung-gesunder-zaehne.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/zahnerhaltung/bruecken.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/zahnerhaltung/bruecken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/zahnerhaltung/inlays.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/zahnerhaltung/inlays.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/zahnerhaltung/krone.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/zahnerhaltung/krone.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/zahnerhaltung/plastische-fuellungsmaterialien.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/zahnerhaltung/plastische-fuellungsmaterialien.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/zahnerhaltung/ursachen-der-zahnverfaerbung.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/zahnerhaltung/ursachen-der-zahnverfaerbung.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leistungen/zahnerhaltung/veneers.php" beforeDir="false" afterPath="$PROJECT_DIR$/leistungen/zahnerhaltung/veneers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notdienste.php" beforeDir="false" afterPath="$PROJECT_DIR$/notdienste.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/praxis.php" beforeDir="false" afterPath="$PROJECT_DIR$/praxis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stellenangebote.php" beforeDir="false" afterPath="$PROJECT_DIR$/stellenangebote.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.php" beforeDir="false" afterPath="$PROJECT_DIR$/team.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team/assistenz.php" beforeDir="false" afterPath="$PROJECT_DIR$/team/assistenz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team/azubis.php" beforeDir="false" afterPath="$PROJECT_DIR$/team/azubis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team/hygiene.php" beforeDir="false" afterPath="$PROJECT_DIR$/team/hygiene.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team/management.php" beforeDir="false" afterPath="$PROJECT_DIR$/team/management.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team/prophylaxe-assistenz.php" beforeDir="false" afterPath="$PROJECT_DIR$/team/prophylaxe-assistenz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team/rezeption.php" beforeDir="false" afterPath="$PROJECT_DIR$/team/rezeption.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/general-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/general-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team/zahnaerzte.php" beforeDir="false" afterPath="$PROJECT_DIR$/team/zahnaerzte.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;mysql.8" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -150,12 +80,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:zahndocs_daten" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -212,8 +137,21 @@
       <workItem from="1581704392229" duration="889000" />
       <workItem from="1582653732305" duration="36000" />
       <workItem from="1582824011127" duration="2454000" />
-      <workItem from="1582883011017" duration="9531000" />
+      <workItem from="1582883011017" duration="9758000" />
+      <workItem from="1582916769768" duration="11000" />
+      <workItem from="1582918120659" duration="606000" />
+      <workItem from="1583092081281" duration="766000" />
+      <workItem from="1584962152622" duration="1651000" />
+      <workItem from="1584963849947" duration="2690000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated project to use database concerning mainly vacation dates so far">
+      <created>1582916564149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582916564149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +170,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated project to use database concerning mainly vacation dates so far" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated project to use database concerning mainly vacation dates so far" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1001" y="175" key="#CLI_Interpreters" timestamp="1582883594050">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -241,26 +183,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582914543964" />
-    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579348604029">
+    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582916628847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579348604029" />
-    <state x="548" y="29" key="CommitChangelistDialog2" timestamp="1582916517243">
+    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582916628847" />
+    <state x="548" y="29" key="CommitChangelistDialog2" timestamp="1584969502858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="548" y="29" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582916517243" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1582914167223">
+    <state x="548" y="29" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584969502858" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1584963820107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582914167223" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584963820107" />
     <state x="895" y="170" key="SettingsEditor" timestamp="1582884243561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="895" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582884243561" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582883011991">
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1583092970831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582883011991" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583092970831" />
     <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582916430694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

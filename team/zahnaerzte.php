@@ -111,7 +111,17 @@
 
 							<h4>Sprechzeiten:</h4>
 
+                            <ul>
+                                <li>Montag 07:30 Uhr bis 11:00 Uhr</li>
+                                <li>Dienstag 07:30 Uhr bis 11:00 Uhr</li>
+                                <li>Mittwoch 16:00 Uhr bis 19:00 Uhr</li>
+                                <li>Donnerstag 16:00 Uhr bis 19:00 Uhr</li>
+                                <li>Freitag 07:30 Uhr bis 11:00 Uhr</li>
+                            </ul>
+
                             <?php
+
+                            /*
 
                             $db = new mysqli("localhost", "root", "", "zahndocs_daten");
                             if ($db->connect_errno) {
@@ -126,6 +136,8 @@
                                 echo "</ul>";
                             }
 
+                            */
+
                             ?>
 
 						</div>
@@ -134,7 +146,13 @@
 
 							<h4>Urlaubszeiten:</h4>
 
+                            <ul>
+                                <li>05.02. - 07.02.2020</li>
+                            </ul>
+
                             <?php
+
+                            /*
 
                             $db = new mysqli("localhost", "root", "", "zahndocs_daten");
                             if ($db->connect_errno) {
@@ -148,6 +166,8 @@
                                 }
                                 echo "</ul>";
                             }
+
+                            */
 
                             ?>
 
@@ -184,7 +204,17 @@
 
 							<h4>Sprechzeiten:</h4>
 
+                            <ul>
+                                <li>Montag 07:30 Uhr bis 11:00 Uhr</li>
+                                <li>Dienstag 07:30 Uhr bis 11:00 Uhr</li>
+                                <li>Mittwoch 16:00 Uhr bis 19:00 Uhr</li>
+                                <li>Donnerstag 16:00 Uhr bis 19:00 Uhr</li>
+                                <li>Freitag 07:30 Uhr bis 11:00 Uhr</li>
+                            </ul>
+
                             <?php
+
+                            /*
 
                             $db = new mysqli("localhost", "root", "", "zahndocs_daten");
                             if ($db->connect_errno) {
@@ -199,6 +229,8 @@
                                 echo "</ul>";
                             }
 
+                            */
+
                             ?>
 
 						</div>
@@ -207,7 +239,13 @@
 
 							<h4>Urlaubszeiten:</h4>
 
+                            <ul>
+                                <li>24.02. - 28.02.2020</li>
+                            </ul>
+
                             <?php
+
+                            /*
 
                             $db = new mysqli("localhost", "root", "", "zahndocs_daten");
                             if ($db->connect_errno) {
@@ -221,6 +259,8 @@
                                 }
                                 echo "</ul>";
                             }
+
+                            */
 
                             ?>
 
