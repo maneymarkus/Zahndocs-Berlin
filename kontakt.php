@@ -207,13 +207,9 @@
 
                             <td>ZÄ Kunath:</td>
 
-                            <td>05.02. - 07.02.2020</td>
-
                             <?php
 
-                            /*
-
-                            $db = new mysqli("localhost", "root", "", "zahndocs_daten");
+                            $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
                             if ($db->connect_errno) {
                                 echo "<p>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
                             } else {
@@ -224,8 +220,6 @@
                                 }
                             }
 
-                            */
-
                             ?>
 
                         </tr>
@@ -234,13 +228,9 @@
 
                             <td>ZÄ Herrmann:</td>
 
-                            <td>24.02. - 28.02.2020</td>
-
                             <?php
 
-                            /*
-
-                            $db = new mysqli("localhost", "root", "", "zahndocs_daten");
+                            $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
                             if ($db->connect_errno) {
                                 echo "<p>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
                             } else {
@@ -250,8 +240,6 @@
                                     echo "<td>$val[datum]</td>";
                                 }
                             }
-
-                            */
 
                             ?>
 

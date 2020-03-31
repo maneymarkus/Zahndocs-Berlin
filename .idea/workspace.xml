@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e99d048-f79e-4e2c-8d91-f08f1ed3ade8" name="Default" comment="Updated project to use database concerning mainly vacation dates so far">
+    <list default="true" id="1e99d048-f79e-4e2c-8d91-f08f1ed3ade8" name="Default" comment="Corona Virus updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aside.php" beforeDir="false" afterPath="$PROJECT_DIR$/aside.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extensions.html" beforeDir="false" afterPath="$PROJECT_DIR$/extensions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/general-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/general-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team/zahnaerzte.php" beforeDir="false" afterPath="$PROJECT_DIR$/team/zahnaerzte.php" afterDir="false" />
     </list>
@@ -142,7 +140,11 @@
       <workItem from="1582918120659" duration="606000" />
       <workItem from="1583092081281" duration="766000" />
       <workItem from="1584962152622" duration="1651000" />
-      <workItem from="1584963849947" duration="2690000" />
+      <workItem from="1584963849947" duration="2936000" />
+      <workItem from="1584969787232" duration="45000" />
+      <workItem from="1585397823282" duration="110000" />
+      <workItem from="1585650430956" duration="3018000" />
+      <workItem from="1585666562545" duration="538000" />
     </task>
     <task id="LOCAL-00001" summary="Updated project to use database concerning mainly vacation dates so far">
       <created>1582916564149</created>
@@ -151,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582916564149</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Corona Virus updates">
+      <created>1584969541050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584969541050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated project to use database concerning mainly vacation dates so far" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated project to use database concerning mainly vacation dates so far" />
+    <MESSAGE value="Corona Virus updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corona Virus updates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1001" y="175" key="#CLI_Interpreters" timestamp="1582883594050">
@@ -187,22 +197,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582916628847" />
-    <state x="548" y="29" key="CommitChangelistDialog2" timestamp="1584969502858">
+    <state x="548" y="29" key="CommitChangelistDialog2" timestamp="1585667264553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="548" y="29" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584969502858" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1584963820107">
+    <state x="548" y="29" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585667264553" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1585397931438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584963820107" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585397931438" />
     <state x="895" y="170" key="SettingsEditor" timestamp="1582884243561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="895" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582884243561" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1583092970831">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1584969543523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583092970831" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584969543523" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1585397823598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585397823598" />
     <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582916430694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

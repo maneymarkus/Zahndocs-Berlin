@@ -587,9 +587,9 @@ nav.sub-menu-2 > ul > li:nth-of-type(4) ul {
 
 .overlay .modal-window {
 	position: relative;
-	padding: 3rem;
-	font-size: 2rem;
-	width: 50%;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	width: 75%;
 	max-height: 80vh;
 	overflow: auto;
 	background-color: #2196F3;
@@ -870,7 +870,9 @@ address b {
 }
 
 @media screen and (min-width: 600px) {
-
+	.overlay .modal-window {
+		font-size: 1.5rem;
+	}
 }
 
 @media screen and (min-width: 960px) {
@@ -1238,6 +1240,13 @@ address b {
 
 	.just-mobile {
 		display: none;
+	}
+
+	.overlay .modal-window {
+		padding: 3rem;
+		font-size: 2rem;
+		width: 50%;
+		max-height: 80vh;
 	}
 
 	main {
