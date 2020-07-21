@@ -172,26 +172,42 @@
 
 						</tr>
 
-						<tr>
+                        <tr>
 
-							<td>Mo., Di., Fr.:</td>
-							<td>07:30 - 11:00 Uhr</td>
+                            <td>Mo.</td>
+                            <td>10:00 - 13:00 Uhr und 14:00 - 20:00 Uhr</td>
 
-						</tr>
+                        </tr>
+                        <tr>
 
-						<tr>
+                            <td>Di.</td>
+                            <td>07:30 - 13:00 Uhr</td>
 
-							<td>Mi. & Do.:</td>
-							<td>16:00 - 19:00 Uhr</td>
+                        </tr>
+                        <tr>
 
-						</tr>
+                            <td>Mi.</td>
+                            <td>14:00 - 20:00 Uhr</td>
 
-						<tr>
+                        </tr>
+                        <tr>
 
-							<td>Sa.:</td>
-							<td>geschlossen</td>
+                            <td>Do.</td>
+                            <td>11:30 - 13:00 Uhr und 14:00 - 20:00 Uhr</td>
 
-						</tr>
+                        </tr>
+                        <tr>
+
+                            <td>Fr.</td>
+                            <td>07:30 - 12:00 Uhr</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>Sa.:</td>
+                            <td>geschlossen</td>
+
+                        </tr>
 
 					</table>
 					<p>Mittagspause: 13:00 bis 14:00 Uhr</p>

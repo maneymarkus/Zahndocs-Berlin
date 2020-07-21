@@ -13,21 +13,36 @@
 				<td colspan="2" class="heading" >Sprechzeiten</td>
 
 			</tr>
-
             <tr>
 
-                <td>Mo., Di., Fr.:</td>
-                <td>07:30 - 11:00 Uhr</td>
+                <td>Mo.</td>
+                <td>10:00 - 13:00 Uhr und 14:00 - 20:00 Uhr</td>
 
             </tr>
-
             <tr>
 
-                <td>Mi. & Do.:</td>
-                <td>16:00 - 19:00 Uhr</td>
+                <td>Di.</td>
+                <td>07:30 - 13:00 Uhr</td>
 
             </tr>
+            <tr>
 
+                <td>Mi.</td>
+                <td>14:00 - 20:00 Uhr</td>
+
+            </tr>
+            <tr>
+
+                <td>Do.</td>
+                <td>11:30 - 13:00 Uhr und 14:00 - 20:00 Uhr</td>
+
+            </tr>
+            <tr>
+
+                <td>Fr.</td>
+                <td>07:30 - 12:00 Uhr</td>
+
+            </tr>
             <tr>
 
                 <td>Sa.:</td>
