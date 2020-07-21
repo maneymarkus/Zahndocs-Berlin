@@ -102,7 +102,7 @@
 					
 				</section>
 			
-				<<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/aside.html"); ?>
+				<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/aside.php"); ?>
 				
 				<a id="back-to-top">
 					<i class="material-icons">arrow_upward</i>

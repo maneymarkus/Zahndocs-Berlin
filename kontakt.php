@@ -54,6 +54,8 @@
 	</head>
 	<body>
 
+    <?php error_reporting(0); ?>
+
 		<div id="wrapper">
 
 			<header id="header" >
@@ -172,15 +174,15 @@
 
 						<tr>
 
-							<td>Mo. - Do.:</td>
-							<td>07:30 - 20:00 Uhr</td>
+							<td>Mo., Di., Fr.:</td>
+							<td>07:30 - 11:00 Uhr</td>
 
 						</tr>
 
 						<tr>
 
-							<td>Fr.:</td>
-							<td>07:30 - 12:00 Uhr</td>
+							<td>Mi. & Do.:</td>
+							<td>16:00 - 19:00 Uhr</td>
 
 						</tr>
 
@@ -204,19 +206,42 @@
                         <tr>
 
                             <td>ZÄ Kunath:</td>
-                            <td>
-                                20.12.19 - 05.01.20
-                            </td>
+
+                            <?php
+
+                            $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
+                            if ($db->connect_errno) {
+                                echo "<p>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
+                            } else {
+                                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Kunath' LIMIT 2");
+                                $data = $result->fetch_all(MYSQLI_ASSOC);
+                                foreach ($data as $val) {
+                                    echo "<td>$val[datum]</td>";
+                                }
+                            }
+
+                            ?>
 
                         </tr>
 
                         <tr>
 
                             <td>ZÄ Herrmann:</td>
-                            <td>
-                                25.11.19 - 29.11.19</br>
-																20.12.19 - 01.01.20
-                            </td>
+
+                            <?php
+
+                            $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
+                            if ($db->connect_errno) {
+                                echo "<p>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
+                            } else {
+                                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Herrmann' LIMIT 2");
+                                $data = $result->fetch_all(MYSQLI_ASSOC);
+                                foreach ($data as $val) {
+                                    echo "<td>$val[datum]</td>";
+                                }
+                            }
+
+                            ?>
 
                         </tr>
 
@@ -233,18 +258,18 @@
 
 				</section>
 
-				<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/aside.html"); ?>
+				<?php include(dirname(__FILE__) . "/aside.php"); ?>
 
 				<a id="back-to-top">
 					<i class="material-icons">arrow_upward</i>
 				</a>
 
 			</main>
-			<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/footer.php"); ?>
+			<?php include(dirname(__FILE__)."/footer.php"); ?>
 
 		</div>
 
-		<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/extensions.html"); ?>
+		<?php include(dirname(__FILE__)."/extensions.html"); ?>
 
 	</body>
 </html>

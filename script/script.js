@@ -33,6 +33,7 @@ var Module = (function(window, document, undefined) {
 		var bookingCounter = 0;
 		var backToTop = document.getElementById("back-to-top");
 		var cookieDiv = document.getElementsByClassName("cookie-div")[0];
+		var modalWin = document.getElementsByClassName("overlay")[0];
 		
 		var cookieText = decodeURIComponent(document.cookie);
 		if (cookieText.search("hasAlreadyVisited=true") != -1) {
@@ -43,6 +44,11 @@ var Module = (function(window, document, undefined) {
 			d = document,
 			e = d.documentElement,
 			g = d.getElementsByTagName('body')[0];
+
+		let closeModalWinBtn = modalWin.getElementsByClassName("close")[0];
+		closeModalWinBtn.addEventListener("click", function () {
+			modalWin.classList.remove("visible");
+		});
 		
 		var div = document.getElementsByClassName("show-booking")[0];
 		var divA = div.getElementsByTagName("a")[0];
@@ -55,6 +61,7 @@ var Module = (function(window, document, undefined) {
 				modal.classList.remove("no-display");
 				divA.classList.remove("no-display");
 				span.classList.remove("no-display");
+				modalWin.classList.add("visible");
 			}, 1000);
 		}
 

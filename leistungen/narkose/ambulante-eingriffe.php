@@ -55,8 +55,9 @@
 	<body>
 		
 		<div id="wrapper">
-		
-			<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/header.html"); ?>
+
+            <?php error_reporting(0); ?>
+			<?php include(dirname(__FILE__)."/../../header.html"); ?>
 			
 			<main>
 			
@@ -113,18 +114,18 @@
 					
 				</section>
 			
-				<<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/aside.html"); ?>
+				<?php include(dirname(__FILE__) . "/../../aside.php"); ?>
 				
 				<a id="back-to-top">
 					<i class="material-icons">arrow_upward</i>
 				</a>
 			
 			</main>
-			<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/footer.php"); ?>
+			<?php include(dirname(__FILE__)."/../../footer.php"); ?>
 		
 		</div>
 		
-		<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/extensions.html"); ?>
+		<?php include(dirname(__FILE__)."/../../extensions.html"); ?>
 		
 	</body>
 </html>

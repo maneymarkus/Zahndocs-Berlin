@@ -56,7 +56,8 @@
 
 		<div id="wrapper">
 
-			<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/header.html"); ?>
+            <?php error_reporting(E_ALL); ?>
+			<?php include(dirname(__FILE__)."/../header.html"); ?>
 
 			<main>
 
@@ -102,7 +103,7 @@
 							<li>Studium der Zahnmedizin an der Humboldt-Universität, 2000-2006</li>
 							<li>Examen und Approbation, Dezember 2005</li>
 							<li>Ausbildung im Fachbereich Implantatprothetik</li>
-              <li>Curriculum Implantologie, Juni 2018</li>
+                            <li>Curriculum Implantologie, Juni 2018</li>
 
 						</ul>
 
@@ -110,26 +111,46 @@
 
 							<h4>Sprechzeiten:</h4>
 
-							<ul>
+                            <?php
 
-								<li>Montag 08:00 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
-								<li>Dienstag 11:00 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
-								<li>Mittwoch 7:30 Uhr bis 16:00 Uhr</li>
-								<li>Donnerstag 7:30 Uhr bis 16:00 Uhr</li>
-								<li>Freitag 7:30 Uhr bis 11:00 Uhr</li>
+                            $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
+                            if ($db->connect_errno) {
+                                echo "<p>Aktuell können die Sprechzeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
+                            } else {
+                                $result = $db->query("SELECT * FROM sprechzeiten WHERE name = 'Kunath'");
+                                $data = $result->fetch_all(MYSQLI_ASSOC);
+                                echo "<ul>";
+                                foreach ($data as $val) {
+                                    echo "<li>$val[sprechzeit]</li>";
+                                }
+                                echo "</ul>";
+                            }
 
-							</ul>
+                            ?>
 
 						</div>
 
 						<div class="under-image-1">
 
 							<h4>Urlaubszeiten:</h4>
-							<ul>
 
-								<li>20.12.19 - 05.01.20</li>
+                            <?php
 
-							</ul>
+                            $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
+                            if ($db->connect_errno) {
+                                echo "<p>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
+                            } else {
+                                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Kunath'");
+                                $data = $result->fetch_all(MYSQLI_ASSOC);
+                                echo "<ul>";
+                                foreach ($data as $val) {
+                                    echo "<li>$val[datum]</li>";
+                                }
+                                echo "</ul>";
+                            }
+
+                            ?>
+
 						</div>
 
 					</div>
@@ -163,45 +184,64 @@
 
 							<h4>Sprechzeiten:</h4>
 
-							<ul>
+                            <?php
 
-								<li>Montag 07:30 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
-								<li>Dienstag 07:30 Uhr bis 13:00 Uhr</li>
-                <li>Mittwoch 14:00 Uhr bis 20:00 Uhr</li>
-								<li>Donnerstag 11:30 bis 13:00 Uhr und 14:00 bis 20:00 Uhr</li>
-								<li>Freitag 7:30 Uhr bis 12:00 Uhr</li>
+                            $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
+                            if ($db->connect_errno) {
+                                echo "<p>Aktuell können die Sprechzeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
+                            } else {
+                                $result = $db->query("SELECT * FROM sprechzeiten WHERE name = 'Herrmann'");
+                                $data = $result->fetch_all(MYSQLI_ASSOC);
+                                echo "<ul>";
+                                foreach ($data as $val) {
+                                    echo "<li>$val[sprechzeit]</li>";
+                                }
+                                echo "</ul>";
+                            }
 
-							</ul>
+                            ?>
 
 						</div>
 
 						<div class="under-image-1">
 
 							<h4>Urlaubszeiten:</h4>
-							<ul>
 
-								<li>25.11.19 - 29.11.19</li>
-								<li>20.12.19 - 01.01.20</li>
+                            <?php
 
-							</ul>
+                            $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
+                            if ($db->connect_errno) {
+                                echo "<p>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
+                            } else {
+                                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Herrmann'");
+                                $data = $result->fetch_all(MYSQLI_ASSOC);
+                                echo "<ul>";
+                                foreach ($data as $val) {
+                                    echo "<li>$val[datum]</li>";
+                                }
+                                echo "</ul>";
+                            }
+
+                            ?>
+
 						</div>
 
 					</div>
 
 				</section>
 
-				<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/aside.html"); ?>
+				<?php include(dirname(__FILE__) . "/../aside.php"); ?>
 
 				<a id="back-to-top">
 					<i class="material-icons">arrow_upward</i>
 				</a>
 
 			</main>
-			<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/footer.php"); ?>
+			<?php include(dirname(__FILE__)."/../footer.php"); ?>
 
 		</div>
 
-		<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/extensions.html"); ?>
+		<?php include(dirname(__FILE__)."/../extensions.html"); ?>
 
 	</body>
 </html>

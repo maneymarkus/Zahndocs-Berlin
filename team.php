@@ -53,6 +53,8 @@
 
 	</head>
 	<body>
+
+    <?php error_reporting(0); ?>
 		
 		<div id="wrapper">
 		
@@ -179,7 +181,7 @@
 							<a href="team/azubis.php">Azubis</a>
 						</li>
 						<li>
-							<a href="team/prophylaxe-assistentinnen.php" >Prophylaxe-Assis&shy;tentinnen</a>
+							<a href="team/prophylaxe-assistenz.php" >Prophylaxe-Assis&shy;tentinnen</a>
 						</li>
 					</ul>
 
@@ -187,18 +189,18 @@
 				
 				</section>
 			
-				<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/aside.html"); ?>
+				<?php include(dirname(__FILE__) . "/aside.php"); ?>
 				
 				<a id="back-to-top">
 					<i class="material-icons">arrow_upward</i>
 				</a>
 			
 			</main>
-			<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/footer.php"); ?>
+			<?php include(dirname(__FILE__)."/footer.php"); ?>
 		
 		</div>
 		
-		<?php include("/var/www/vhosts/zahndocs-berlin.de/httpdocs/extensions.html"); ?>
+		<?php include(dirname(__FILE__)."/extensions.html"); ?>
 		
 	</body>
 </html>
