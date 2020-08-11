@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e99d048-f79e-4e2c-8d91-f08f1ed3ade8" name="Default" comment="Corona Virus updates and small style changes">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aside.php" beforeDir="false" afterPath="$PROJECT_DIR$/aside.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extensions.html" beforeDir="false" afterPath="$PROJECT_DIR$/extensions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team/prophylaxe-assistenz.php" beforeDir="false" afterPath="$PROJECT_DIR$/team/prophylaxe-assistenz.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +26,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="--aktuell-- Version 20180904" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,7 +132,7 @@
       <workItem from="1586534704465" duration="824000" />
       <workItem from="1587324051675" duration="55000" />
       <workItem from="1587671632715" duration="2088000" />
-      <workItem from="1597166598942" duration="196000" />
+      <workItem from="1597166598942" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="Updated project to use database concerning mainly vacation dates so far">
       <created>1582916564149</created>
@@ -187,41 +180,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Corona Virus updates and small style changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1001" y="175" key="#CLI_Interpreters" timestamp="1582883594050">
+    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1597166946692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1001" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1582883594050" />
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582914543964">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582914543964" />
-    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582916628847">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582916628847" />
-    <state x="548" y="29" key="CommitChangelistDialog2" timestamp="1585667276964">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="548" y="29" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585667276964" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1585397931438">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585397931438" />
-    <state x="895" y="170" key="SettingsEditor" timestamp="1582884243561">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="895" y="170" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582884243561" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1585667282327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585667282327" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1585397823598">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585397823598" />
-    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582916430694">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582916430694" />
+    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597166946692" />
   </component>
 </project>
