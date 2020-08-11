@@ -172,29 +172,16 @@
 
 						</tr>
 
-						<tr>
+                        <tr>
 
-							<td>Mo., Di., Fr.:</td>
-							<td>07:30 - 11:00 Uhr</td>
+                            <td colspan="2">Auf Grund der aktuellen Lage variieren die Sprechzeiten. Diese finden Sie auf den einzelnen Seiten der Behandler ("Das Team" -> "Zahnärzte", "Das Team" -> "Prophylaxe-Assistenz"), können Sie telefonisch erfragen oder auf Google nachschauen (werden täglich aktualisiert).</td>
 
-						</tr>
-
-						<tr>
-
-							<td>Mi. & Do.:</td>
-							<td>16:00 - 19:00 Uhr</td>
-
-						</tr>
-
-						<tr>
-
-							<td>Sa.:</td>
-							<td>geschlossen</td>
-
-						</tr>
+                        </tr>
 
 					</table>
+                    <!--
 					<p>Mittagspause: 13:00 bis 14:00 Uhr</p>
+					-->
                     <table>
 
                         <tr>

@@ -1,0 +1,15 @@
+DirectoryIndex index.php 
+#needs to stay like this even though the actual location of the file is different... maybe another .htaccess file?
+
+ErrorDocument 400 /error_docs/400_bad_request.php
+ErrorDocument 401 /error_docs/401_unauthorized.php
+ErrorDocument 403 /error_docs/403_forbidden.php
+ErrorDocument 404 /error_docs/404_not_found.php
+ErrorDocument 405 /error_docs/405_method_not_allowed.php
+ErrorDocument 412 /error_docs/412_precondition_failed.php
+ErrorDocument 414 /error_docs/414_uri_too_long.php
+ErrorDocument 415 /error_docs/415_unsupported_media_type.php
+ErrorDocument 500 /error_docs/500_internal_server_error.php
+ErrorDocument 501 /error_docs/501_not_implemented.php
+ErrorDocument 502 /error_docs/502_bad_gateway.php
+ErrorDocument 503 /error_docs/503_service_unavailable.php

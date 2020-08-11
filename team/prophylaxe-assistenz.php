@@ -114,6 +114,22 @@
 							</ul>
 						
 						</div>
+
+                        <div class="under-image-2">
+
+                            <h4>Sprechzeiten:</h4>
+
+                            <ul>
+
+                                <li>Montag 14:00 Uhr bis 20:00 Uhr</li>
+                                <li>Dienstag 14:00 Uhr bis 20:00 Uhr</li>
+                                <li>Mittwoch 11:30 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
+                                <li>Donnerstag 08:00 Uhr bis 13:00 Uhr</li>
+                                <li>Freitag nicht verfügbar</li>
+
+                            </ul>
+
+                        </div>
 					
 					</div>
 
@@ -143,6 +159,22 @@
 
                                 <li>Prophylaxe</li>
                                 <li>Stuhlassistenz</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="under-image-2">
+
+                            <h4>Sprechzeiten:</h4>
+
+                            <ul>
+
+                                <li>Montag nicht verfügbar</li>
+                                <li>Dienstag 10:00 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
+                                <li>Mittwoch nicht verrfügbar</li>
+                                <li>Donnerstag 10:00 Uhr bis 13:00 Uhr und 14:00 Uhr bis 20:00 Uhr</li>
+                                <li>Freitag nicht verfügbar</li>
 
                             </ul>
 

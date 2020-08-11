@@ -1,0 +1,31 @@
+section h2, h3 {
+	color: blue;
+	border-bottom: 3px solid blue;
+	font-size: 1.3em;
+}
+
+section h2 {
+	font-size: 1.6em;
+}
+
+section table {
+	font-size: 0.7em;
+}
+
+section table td {
+	padding-left: 1em;
+}
+
+section .some-bigger {
+	font-size: 1.2em;
+}
+
+section strong {
+	color: blue;
+}
+
+@media screen and (min-width: 600px) {
+	section table {
+		font-size: 1em;
+	}
+}
