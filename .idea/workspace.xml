@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e99d048-f79e-4e2c-8d91-f08f1ed3ade8" name="Default" comment="Corona Virus updates and small style changes">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aside.php" beforeDir="false" afterPath="$PROJECT_DIR$/aside.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +133,8 @@
       <workItem from="1586534704465" duration="824000" />
       <workItem from="1587324051675" duration="55000" />
       <workItem from="1587671632715" duration="2088000" />
-      <workItem from="1597166598942" duration="701000" />
+      <workItem from="1597166598942" duration="733000" />
+      <workItem from="1597167384234" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="Updated project to use database concerning mainly vacation dates so far">
       <created>1582916564149</created>

@@ -175,31 +175,31 @@
                         <tr>
 
                             <td>Mo.</td>
-                            <td>10:00 - 13:00 Uhr und 14:00 - 20:00 Uhr</td>
+                            <td>08:00 - 13:00 Uhr und 14:00 - 20:00 Uhr</td>
 
                         </tr>
                         <tr>
 
                             <td>Di.</td>
-                            <td>07:30 - 13:00 Uhr</td>
+                            <td>11:00 - 13:00 Uhr und 14:00 - 20:00 Uhr</td>
 
                         </tr>
                         <tr>
 
                             <td>Mi.</td>
-                            <td>14:00 - 20:00 Uhr</td>
+                            <td>07:30 - 13:00 Uhr</td>
 
                         </tr>
                         <tr>
 
                             <td>Do.</td>
-                            <td>11:30 - 13:00 Uhr und 14:00 - 20:00 Uhr</td>
+                            <td>07:30 - 13:00 Uhr</td>
 
                         </tr>
                         <tr>
 
                             <td>Fr.</td>
-                            <td>07:30 - 12:00 Uhr</td>
+                            <td>07:30 - 11:30 Uhr</td>
 
                         </tr>
                         <tr>
