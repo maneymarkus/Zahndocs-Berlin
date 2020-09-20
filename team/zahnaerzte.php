@@ -117,7 +117,7 @@
                             if ($db->connect_errno) {
                                 echo "<p>Aktuell können die Sprechzeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
                             } else {
-                                $result = $db->query("SELECT * FROM sprechzeiten WHERE name = 'Kunath'");
+                                $result = $db->query("SELECT * FROM sprechzeiten WHERE name = 'Kunath' ORDER BY id");
                                 $data = $result->fetch_all(MYSQLI_ASSOC);
                                 echo "<ul>";
                                 foreach ($data as $val) {
@@ -140,7 +140,7 @@
                             if ($db->connect_errno) {
                                 echo "<p>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
                             } else {
-                                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Kunath'");
+                                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Kunath' ORDER BY id");
                                 $data = $result->fetch_all(MYSQLI_ASSOC);
                                 echo "<ul>";
                                 foreach ($data as $val) {
@@ -190,7 +190,7 @@
                             if ($db->connect_errno) {
                                 echo "<p>Aktuell können die Sprechzeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
                             } else {
-                                $result = $db->query("SELECT * FROM sprechzeiten WHERE name = 'Herrmann'");
+                                $result = $db->query("SELECT * FROM sprechzeiten WHERE name = 'Herrmann' ORDER BY id");
                                 $data = $result->fetch_all(MYSQLI_ASSOC);
                                 echo "<ul>";
                                 foreach ($data as $val) {
@@ -213,7 +213,7 @@
                             if ($db->connect_errno) {
                                 echo "<p>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</p>";
                             } else {
-                                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Herrmann'");
+                                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Herrmann' ORDER BY id");
                                 $data = $result->fetch_all(MYSQLI_ASSOC);
                                 echo "<ul>";
                                 foreach ($data as $val) {

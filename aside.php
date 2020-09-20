@@ -22,26 +22,14 @@
             </tr>
             <tr>
 
-                <td>Di.</td>
-                <td>11:00 - 13:00 Uhr und 14:00 - 20:00 Uhr</td>
-
-            </tr>
-            <tr>
-
-                <td>Mi.</td>
-                <td>07:30 - 13:00 Uhr</td>
-
-            </tr>
-            <tr>
-
-                <td>Do.</td>
-                <td>07:30 - 13:00 Uhr</td>
+                <td>Di., Mi. & Do.</td>
+                <td>07:30 - 13:00 Uhr und 14:00 - 20:00 Uhr</td>
 
             </tr>
             <tr>
 
                 <td>Fr.</td>
-                <td>07:30 - 11:30 Uhr</td>
+                <td>07:30 - 12:00 Uhr</td>
 
             </tr>
             <tr>
@@ -53,7 +41,8 @@
 
 			<tr>
 
-				<td colspan="2">Mittagspause: 13:00 bis 14:00 Uhr</td>
+				<td>Mittagspause:</td>
+                <td>13:00 bis 14:00 Uhr</td>
 
 			</tr>
 
@@ -63,47 +52,47 @@
 
 			</tr>
 
-			<tr>
+            <?php
 
-				<td>ZÄ Kunath:</td>
-
-                <?php
-
-                $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
-                if ($db->connect_errno) {
-                    echo "<span>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</span>";
-                } else {
-                    $result = $db->query("SELECT * FROM urlaub WHERE name = 'Kunath' LIMIT 2");
-                    $data = $result->fetch_all(MYSQLI_ASSOC);
-                    foreach ($data as $val) {
-                        echo "<td>$val[datum]</td>";
+            $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
+            if ($db->connect_errno) {
+                echo "<span>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</span>";
+            } else {
+                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Kunath' ORDER BY id LIMIT 2");
+                $data = $result->fetch_all(MYSQLI_ASSOC);
+                $first = true;
+                foreach ($data as $val) {
+                    echo "<tr><td>";
+                    if ($first) {
+                        echo "ZÄ Kunath:";
+                        $first = false;
                     }
+                    echo "</td><td>$val[datum]</td></tr>";
                 }
+            }
 
-                ?>
+            ?>
 
-			</tr>
+            <?php
 
-			<tr>
-
-				<td>ZÄ Herrmann:</td>
-
-                <?php
-
-                $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
-                if ($db->connect_errno) {
-                    echo "<span>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</span>";
-                } else {
-                    $result = $db->query("SELECT * FROM urlaub WHERE name = 'Herrmann' LIMIT 2");
-                    $data = $result->fetch_all(MYSQLI_ASSOC);
-                    foreach ($data as $val) {
-                        echo "<td>$val[datum]</td>";
+            $db = new mysqli("localhost", "zahndocs", "eRgh4$40", "zahndocs_daten");
+            if ($db->connect_errno) {
+                echo "<span>Aktuell können die Urlaubszeiten leider nicht abgefragt werden. Bitte versuchen Sie es später erneut.</span>";
+            } else {
+                $result = $db->query("SELECT * FROM urlaub WHERE name = 'Herrmann' ORDER BY id LIMIT 2");
+                $data = $result->fetch_all(MYSQLI_ASSOC);
+                $first = true;
+                foreach ($data as $val) {
+                    echo "<tr><td>";
+                    if ($first) {
+                        echo "ZÄ Herrmann:";
+                        $first = false;
                     }
+                    echo "</td><td>$val[datum]</td></tr>";
                 }
+            }
 
-                ?>
-
-			</tr>
+            ?>
 
 		</table>
 	</div>

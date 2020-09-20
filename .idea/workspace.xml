@@ -4,7 +4,10 @@
     <list default="true" id="1e99d048-f79e-4e2c-8d91-f08f1ed3ade8" name="Default" comment="Corona Virus updates and small style changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aside.php" beforeDir="false" afterPath="$PROJECT_DIR$/aside.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions.html" beforeDir="false" afterPath="$PROJECT_DIR$/extensions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team/zahnaerzte.php" beforeDir="false" afterPath="$PROJECT_DIR$/team/zahnaerzte.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,11 @@
     <select />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
@@ -134,7 +142,9 @@
       <workItem from="1587324051675" duration="55000" />
       <workItem from="1587671632715" duration="2088000" />
       <workItem from="1597166598942" duration="733000" />
-      <workItem from="1597167384234" duration="292000" />
+      <workItem from="1597167384234" duration="929000" />
+      <workItem from="1600420731557" duration="1421000" />
+      <workItem from="1600600350048" duration="2047000" />
     </task>
     <task id="LOCAL-00001" summary="Updated project to use database concerning mainly vacation dates so far">
       <created>1582916564149</created>
